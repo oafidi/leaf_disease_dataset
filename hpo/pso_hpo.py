@@ -763,7 +763,9 @@ def run_pso_seed(seed: int, result_cache: dict) -> float:
         # the fact that fitnesses is reset each generation (see end-of-gen
         # block below), so its length equals how many particles have been
         # processed in the *current* generation.
-        already_done = len(fitnesses) if gen == generation else 0
+        
+        # 👇 FIX ICI : Remplacement de len(fitnesses) par trial_counter % POP_SIZE
+        already_done = trial_counter % POP_SIZE if gen == generation else 0
 
         # Temporary lists for the current generation's updated particles.
         # On a fresh start (not a resume) these are empty.

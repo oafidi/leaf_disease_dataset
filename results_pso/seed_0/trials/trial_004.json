@@ -1,0 +1,22 @@
+{
+  "method": "particle_swarm_optimization",
+  "seed": 0,
+  "trial_id": 4,
+  "hyperparams": {
+    "freezing_ratio": 0.7,
+    "learning_rate": 0.001,
+    "dropout_rate": 0.5,
+    "l2_reg": 0.002,
+    "optimizer": "sgd",
+    "batch_size": 8
+  },
+  "val_accuracy": 0.9356223344802856,
+  "test_accuracy": 0.9008620977401732,
+  "val_loss": null,
+  "best_epoch": null,
+  "total_epochs": null,
+  "history": null,
+  "training_time_seconds": 0.0,
+  "from_cache": true,
+  "timestamp": "2026-05-30T01:11:18.509114"
+}

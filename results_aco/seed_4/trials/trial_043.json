@@ -1,0 +1,22 @@
+{
+  "method": "ant_colony_optimisation",
+  "seed": 4,
+  "trial_id": 43,
+  "hyperparams": {
+    "freezing_ratio": 0.95,
+    "learning_rate": 0.005,
+    "dropout_rate": 0.3,
+    "l2_reg": 0.01,
+    "optimizer": "adam",
+    "batch_size": 32
+  },
+  "val_accuracy": 0.9184549450874328,
+  "test_accuracy": 0.9353448152542114,
+  "val_loss": null,
+  "best_epoch": null,
+  "total_epochs": null,
+  "history": null,
+  "training_time_seconds": 0.0,
+  "from_cache": true,
+  "timestamp": "2026-05-30T12:24:47.682571"
+}
