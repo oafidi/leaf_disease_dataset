@@ -1,0 +1,22 @@
+{
+  "method": "firefly_algorithm",
+  "seed": 1,
+  "trial_id": 5,
+  "hyperparams": {
+    "freezing_ratio": 0.9,
+    "learning_rate": 1e-05,
+    "dropout_rate": 0.4,
+    "l2_reg": 0.05,
+    "optimizer": "adamw",
+    "batch_size": 32
+  },
+  "val_accuracy": 0.5879828333854675,
+  "test_accuracy": 0.6336206793785095,
+  "val_loss": null,
+  "best_epoch": null,
+  "total_epochs": null,
+  "history": null,
+  "training_time_seconds": 0.0,
+  "from_cache": true,
+  "timestamp": "2026-05-30T18:20:41.958153"
+}
